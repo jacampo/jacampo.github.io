@@ -68,6 +68,15 @@
         }
     });
 
+    // Sobre mi
+    window.onload = function () {
+        var edad = document.getElementById('edad');
+        edad.innerHTML = new Date().getFullYear() - 1999;
+
+        var experiencia = document.getElementById('experiencia');
+        experiencia.innerHTML = (new Date().getFullYear() - 2021).toString() + " años";
+    }
+
 
     // Skills
     $('.skill').waypoint(function () {
