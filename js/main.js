@@ -71,7 +71,7 @@
     // Sobre mi
     window.onload = function () {
         var edad = document.getElementById('edad');
-        edad.innerHTML = new Date().getFullYear() - 1999;
+        edad.innerHTML = (new Date().getFullYear() - 1999).toString() + " años";
 
         var experiencia = document.getElementById('experiencia');
         experiencia.innerHTML = (new Date().getFullYear() - 2021).toString() + " años";
